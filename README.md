@@ -16,7 +16,7 @@
    
 9. Follow onscreen instructions. Whenever asked, enter administrators password (it's necessary as `/Library/LaunchAgents/` folder is usually read-only for standard users).
 
-When needed uninstall the agent with the same script using option 2.
+When needed, uninstall the agent with the same script using a corresponding option.
 
 ## Acknowlegments
 - [macos-script-login-logout script](https://github.com/christophecvr/macos-script-login-logout) by [christophecvr](https://github.com/christophecvr)
