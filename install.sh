@@ -32,7 +32,7 @@ function install()
 
     # Create script folder if needed
     if [ ! -d "$SCRIPT_PATH" ]; then
-    echo "\nCreating script folder..."
+    printf "\nCreating script folder..."
     printf "${GREEN}$SCRIPT_PATH${NC}\n"
     sudo mkdir $SCRIPT_PATH
     fi
@@ -45,7 +45,7 @@ function install()
     printf "\nInstalling agent: ${GREEN}/Library/LaunchAgents/ru.42post.login.plist${NC}...\n"
     sudo mv ru.42post.login.plist "/Library/LaunchAgents"
     launchctl load -w /Library/LaunchAgents/ru.42post.login.plist
-    echo "\nDONE!"
+    printf "\nDONE!"
     exit 0
 }
 
