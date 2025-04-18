@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# (C) Ilya Putilin @ 42POST
+# https://github.com/fantopop/
+
 # Script destination folder
 SCRIPT_PATH="/Library/Scripts/Login/"
 
